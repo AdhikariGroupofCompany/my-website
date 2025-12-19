@@ -40,15 +40,6 @@ transition: width 0.3s ease;
                         <i data-feather="menu"></i>
                     </button>
                 </div>
-                
-                <div id="mobile-menu" class="mobile-menu md:hidden">
-                    <div class="pt-4 pb-2 space-y-3">
-                        <a href="#about" class="block px-3 py-2 text-gray-700 hover:bg-gray-100 rounded">About</a>
-                        <a href="#products" class="block px-3 py-2 text-gray-700 hover:bg-gray-100 rounded">Products</a>
-                        <a href="#contact" class="block px-3 py-2 text-gray-700 hover:bg-gray-100 rounded">Contact</a>
-                    </div>
-                </div>
-            </nav>
             
             <script>
                 feather.replace();
