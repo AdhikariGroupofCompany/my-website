@@ -38,8 +38,7 @@ transition: width 0.3s ease;
             <nav class="navbar fixed w-full z-50 py-4 px-6 bg-white md:bg-transparent">
                 <div class="container mx-auto flex justify-between items-center">
                     <a href="/" class="flex items-center">
-<img src="https://huggingface.co/spaces/DummyAdam99/adhikari-visionary-ventures-hub/resolve/main/images/Adhikari%20Group%20Logo.jpg" alt="Adhikari Group Logo" class="h-12 bg-white p-1 rounded">
-<span class="text-2xl font-bold text-emerald-700 ml-2">ADHIKARI GROUP OF COMPANY</span>
+
 </a>
                     
                     <div class="hidden md:flex space-x-8">
