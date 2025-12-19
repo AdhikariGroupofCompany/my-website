@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adhikari Group | Diversified Production Enterprise</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.js"></script>
+    <script src="https://unpkg.com/feather-icons"></script>
+    <script src="components/navbar.js"></script>
+    <script src="components/footer.js"></script>
+    <script src="components/product-viewer.js"></script>
+    <script src="components/product-card.js"></script>
+</head>
+<body class="bg-gray-50">
+    <!-- Company Header -->
+    <div class="bg-gradient-to-r from-blue-900 to-emerald-900 py-8 shadow-lg">
+        <div class="container mx-auto px-6 flex flex-col md:flex-row items-center justify-center md:justify-start">
+            <div class="flex items-center mb-6 md:mb-0 md:mr-8">
+                <img src="https://huggingface.co/spaces/DummyAdam99/adhikari-visionary-ventures-hub/resolve/main/images/Layer 0 copy.png" 
+                     alt="Adhikari Group Logo" 
+                     class="h-32 md:h-40 object-contain bg-white p-2 rounded-lg">
+</div>
+            <div class="text-center md:text-left">
+                <h1 class="text-4xl md:text-5xl font-bold text-white mb-2">Adhikari Group of Company</h1>
+                <p class="text-xl md:text-2xl text-emerald-300 font-medium">Diversified Production Enterprise</p>
+<div class="mt-4 flex justify-center md:justify-start space-x-4">
+                    <a href="#about" class="bg-white text-blue-900 px-6 py-2 rounded-lg font-semibold hover:bg-gray-100 transition duration-300">
+                        Explore More
+                    </a>
+                    <a href="#contact" class="border-2 border-white text-white px-6 py-2 rounded-lg font-semibold hover:bg-white hover:text-blue-900 transition duration-300">
+                        Contact Us
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+<custom-navbar></custom-navbar>
+
+    <!-- Hero Section -->
+<section class="relative bg-gradient-to-r from-red-600 to-blue-800 text-white py-20">
+<div class="container mx-auto px-6 text-center">
+            <h1 class="text-4xl md:text-6xl font-bold mb-6">Innovating for a Sustainable Future</h1>
+            <p class="text-xl md:text-2xl mb-8 max-w-3xl mx-auto">Diversified production-driven enterprise committed to quality, innovation, and sustainable growth.</p>
+            <div class="flex flex-col sm:flex-row justify-center gap-4">
+                <a href="#about" class="bg-white text-emerald-800 px-8 py-3 rounded-lg font-semibold hover:bg-gray-100 transition duration-300">Learn More</a>
+                <a href="#products" class="border-2 border-white px-8 py-3 rounded-lg font-semibold hover:bg-white hover:text-emerald-800 transition duration-300">Our Products</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="py-20 bg-white">
+        <div class="container mx-auto px-6">
+            <div class="flex flex-col lg:flex-row items-center gap-12">
+                <div class="lg:w-1/2">
+                    <h2 class="text-3xl md:text-4xl font-bold text-gray-800 mb-6">About Adhikari Group</h2>
+                    <p class="text-gray-600 mb-6">Adhikari Group of Company is a diversified production-driven enterprise committed to quality, innovation, and sustainable growth. With a strong foundation in manufacturing high-quality plastic products, the group also operates across agriculture and other emerging business sectors.</p>
+                    <p class="text-gray-600 mb-8">Guided by modern technology, ethical business practices, and a customer-centric approach, we focus on delivering reliable products, supporting local communities, and expanding our multi-sector presence with long-term vision and responsibility.</p>
+                    <div class="grid grid-cols-2 gap-4">
+                        <div class="flex items-center">
+                            <i data-feather="check-circle" class="text-emerald-600 mr-2"></i>
+                            <span class="text-gray-700">Quality Products</span>
+                        </div>
+                        <div class="flex items-center">
+                            <i data-feather="check-circle" class="text-emerald-600 mr-2"></i>
+                            <span class="text-gray-700">Sustainable Practices</span>
+                        </div>
+                        <div class="flex items-center">
+                            <i data-feather="check-circle" class="text-emerald-600 mr-2"></i>
+                            <span class="text-gray-700">Customer Focus</span>
+                        </div>
+                        <div class="flex items-center">
+                            <i data-feather="check-circle" class="text-emerald-600 mr-2"></i>
+                            <span class="text-gray-700">Community Support</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="lg:w-1/2">
+                    <div class="relative rounded-xl overflow-hidden shadow-xl">
+                        <img src="http://static.photos/industry/1024x576/10" alt="Adhikari Group Facility" class="w-full h-auto">
+                        <div class="absolute inset-0 bg-gradient-to-t from-black/70 via-transparent to-transparent flex items-end p-6">
+                            <p class="text-white text-lg">Our state-of-the-art manufacturing facility</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Team Section -->
+    <section class="py-20 bg-white">
+        <div class="container mx-auto px-6">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl md:text-4xl font-bold text-gray-800 mb-4">Our Leadership Team</h2>
+                <p class="text-gray-600 max-w-2xl mx-auto">Experienced professionals guiding our company's vision and growth.</p>
+            </div>
+            
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <!-- Team Member 1 -->
+                <div class="bg-gray-50 rounded-xl p-6 text-center shadow-md hover:shadow-lg transition duration-300">
+                    <img src="http://static.photos/people/400x400/1" alt="Bishal Adhikari" class="w-32 h-32 rounded-full mx-auto mb-4 object-cover">
+                    <h3 class="text-xl font-bold text-gray-800 mb-2">Bishal Adhikari</h3>
+                    <p class="text-blue-600 font-semibold mb-4">Founder/Chairman</p>
+                    <p class="text-gray-600">Visionary leader with extensive experience in manufacturing and agriculture.</p>
+                </div>
+                
+                <!-- Team Member 2 -->
+                <div class="bg-gray-50 rounded-xl p-6 text-center shadow-md hover:shadow-lg transition duration-300">
+                    <img src="http://static.photos/people/400x400/2" alt="Ashish Gaire" class="w-32 h-32 rounded-full mx-auto mb-4 object-cover">
+                    <h3 class="text-xl font-bold text-gray-800 mb-2">Ashish Gaire</h3>
+                    <p class="text-blue-600 font-semibold mb-4">CEO/MD</p>
+                    <p class="text-gray-600">Driving operational excellence and strategic growth across all business units.</p>
+                </div>
+                
+                <!-- Team Member 3 -->
+                <div class="bg-gray-50 rounded-xl p-6 text-center shadow-md hover:shadow-lg transition duration-300">
+                    <img src="http://static.photos/people/400x400/3" alt="Kiran Bhusal" class="w-32 h-32 rounded-full mx-auto mb-4 object-cover">
+                    <h3 class="text-xl font-bold text-gray-800 mb-2">Kiran Bhusal</h3>
+                    <p class="text-blue-600 font-semibold mb-4">IT Manager</p>
+                    <p class="text-gray-600">Leading digital transformation and technology infrastructure development.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Stats Section -->
+<section class="py-16 bg-emerald-100">
+        <div class="container mx-auto px-6">
+            <div class="grid grid-cols-2 md:grid-cols-4 gap-8 text-center">
+                <div class="p-6">
+                    <h3 class="text-4xl font-bold text-blue-800 mb-2">3+</h3>
+                    <p class="text-gray-600">Years of Experience</p>
+                </div>
+                <div class="p-6">
+                    <h3 class="text-4xl font-bold text-blue-800 mb-2">50+</h3>
+                    <p class="text-gray-600">Employees</p>
+                </div>
+                <div class="p-6">
+                    <h3 class="text-4xl font-bold text-blue-800 mb-2">10K+</h3>
+                    <p class="text-gray-600">Products Delivered</p>
+                </div>
+                <div class="p-6">
+                    <h3 class="text-4xl font-bold text-blue-800 mb-2">100+</h3>
+                    <p class="text-gray-600">Happy Clients</p>
+                </div>
+</div>
+        </div>
+    </section>
+
+    <!-- Products Section -->
+    <section id="products" class="py-20 bg-gray-50">
+        <div class="container mx-auto px-6">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl md:text-4xl font-bold text-gray-800 mb-4">Our Products</h2>
+                <p class="text-gray-600 max-w-2xl mx-auto">High-quality products manufactured with precision and care, serving diverse industries and applications.</p>
+            </div>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <product-viewer 
+                    title="Paper Products" 
+                    description="High-quality paper products."
+                    full-description="We manufacture premium quality paper, paper board, and carbon paper for various applications. Our paper products are made from sustainable sources and are available in different weights and finishes to meet your specific needs."
+                    image="https://huggingface.co/spaces/DummyAdam99/adhikari-visionary-ventures-hub/resolve/main/images/Products.jpg">
+                </product-viewer>
+                <product-viewer 
+                    title="Plastic Bottles" 
+                    description="Durable plastic containers."
+                    full-description="Our plastic bottles are manufactured using high-grade materials that are BPA-free and recyclable. Available in various sizes from 100ml to 5L, with options for custom branding, colors, and specialized caps."
+                    image="https://huggingface.co/spaces/DummyAdam99/adhikari-visionary-ventures-hub/resolve/main/images/Water Bottle.png">
+                </product-viewer>
+                
+                <product-viewer 
+                    title="Bottle Caps" 
+                    description="Premium quality caps."
+                    full-description="We produce bottle caps in various materials including PP, HDPE, and aluminum. Our caps feature tamper-evident designs and can be customized with your logo or branding. Available for standard and wide-mouth bottles."
+                    image="https://huggingface.co/spaces/DummyAdam99/adhikari-visionary-ventures-hub/resolve/main/images/Bottle Caps.png">
+                </product-viewer>
+
+                <product-viewer 
+                    title="Water Jars" 
+                    description="BPA-free water containers."
+                    full-description="Our water jars are made from food-grade plastic and come in capacities from 5L to 20L. Features include ergonomic handles, airtight lids, and optional engraved company logos. Ideal for home and office use."
+                    image="https://huggingface.co/spaces/DummyAdam99/adhikari-visionary-ventures-hub/resolve/main/images/Water Jars.png">
+                </product-viewer>
+                <product-viewer 
+                    title="Tissue Paper" 
+                    description="Soft tissue products."
+                    full-description="Premium quality tissue paper available in various ply counts (1-ply to 3-ply) and packaging options. Our tissues are lint-free, highly absorbent, and can be customized with your branding. Suitable for facial, kitchen, and general purpose use."
+                    image="https://huggingface.co/spaces/DummyAdam99/adhikari-visionary-ventures-hub/resolve/main/images/Tissue Paper_AG.png">
+                </product-viewer>
+
+                <product-viewer 
+                    title="Toilet Paper" 
+                    description="Premium toilet tissue."
+                    full-description="Manufactured from virgin pulp, our toilet paper is soft yet strong. Available in standard and jumbo rolls, with optional company logo engraving. Our products meet international quality standards for hygiene and comfort."
+                    image="https://huggingface.co/spaces/DummyAdam99/adhikari-visionary-ventures-hub/resolve/main/images/Toilet Paper.png">
+                </product-viewer>
+</div>
+</div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-20 bg-white">
+        <div class="container mx-auto px-6">
+            <div class="flex flex-col lg:flex-row gap-12">
+                <div class="lg:w-1/2">
+                    <h2 class="text-3xl md:text-4xl font-bold text-gray-800 mb-6">Get In Touch</h2>
+                    <p class="text-gray-600 mb-8">We'd love to hear from you. Whether you have questions about our products or want to explore partnership opportunities, our team is ready to assist you.</p>
+                    
+                    <div class="space-y-6">
+                        <div class="flex items-start">
+                            <i data-feather="map-pin" class="text-emerald-600 mt-1 mr-4"></i>
+                            <div>
+                                <h4 class="font-semibold text-gray-800">Our Location</h4>
+                                <p class="text-gray-600"> Bharatpur, Chitwan, Nepal</p>
+                            </div>
+                        </div>
+                        <div class="flex items-start">
+                            <i data-feather="mail" class="text-emerald-600 mt-1 mr-4"></i>
+                            <div>
+                                <h4 class="font-semibold text-gray-800">Email Us</h4>
+                                <p class="text-gray-600">info@adhikarigroupofcompany.com</p>
+                            </div>
+                        </div>
+                        <div class="flex items-start">
+                            <i data-feather="phone" class="text-emerald-600 mt-1 mr-4"></i>
+                            <div>
+                                <h4 class="font-semibold text-gray-800">Call Us</h4>
+                                <p class="text-gray-600">+977 9866348919</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="lg:w-1/2">
+                    <form class="bg-gray-50 p-8 rounded-xl shadow-md">
+                        <div class="mb-6">
+                            <label for="name" class="block text-gray-700 mb-2">Full Name</label>
+                            <input type="text" id="name" class="w-full px-4 py-3 rounded-lg border border-gray-300 focus:outline-none focus:ring-2 focus:ring-emerald-500 focus:border-transparent">
+                        </div>
+                        <div class="mb-6">
+                            <label for="email" class="block text-gray-700 mb-2">Email Address</label>
+                            <input type="email" id="email" class="w-full px-4 py-3 rounded-lg border border-gray-300 focus:outline-none focus:ring-2 focus:ring-emerald-500 focus:border-transparent">
+                        </div>
+                        <div class="mb-6">
+                            <label for="subject" class="block text-gray-700 mb-2">Subject</label>
+                            <input type="text" id="subject" class="w-full px-4 py-3 rounded-lg border border-gray-300 focus:outline-none focus:ring-2 focus:ring-emerald-500 focus:border-transparent">
+                        </div>
+                        <div class="mb-6">
+                            <label for="message" class="block text-gray-700 mb-2">Your Message</label>
+                            <textarea id="message" rows="4" class="w-full px-4 py-3 rounded-lg border border-gray-300 focus:outline-none focus:ring-2 focus:ring-emerald-500 focus:border-transparent"></textarea>
+                        </div>
+                        <button type="submit" class="w-full bg-emerald-600 text-white px-6 py-3 rounded-lg font-semibold hover:bg-emerald-700 transition duration-300">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <custom-footer></custom-footer>
+
+    <script>
+        feather.replace();
+        
+        // Smooth scrolling for anchor links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+    </script>
+</body>
+</html>
