@@ -35,17 +35,6 @@ transition: width 0.3s ease;
                     max-height: 500px;
                 }
             </style>
-            <nav class="navbar fixed w-full z-50 py-4 px-6 bg-white md:bg-transparent">
-                <div class="container mx-auto flex justify-between items-center">
-                    <a href="/" class="flex items-center">
-
-</a>
-                    
-                    <div class="hidden md:flex space-x-8">
-                        <a href="#about" class="nav-link text-gray-700 hover:text-emerald-600">About</a>
-                        <a href="#products" class="nav-link text-gray-700 hover:text-emerald-600">Products</a>
-                        <a href="#contact" class="nav-link text-gray-700 hover:text-emerald-600">Contact</a>
-                    </div>
                     
                     <button id="mobile-menu-button" class="md:hidden text-gray-700 focus:outline-none">
                         <i data-feather="menu"></i>
